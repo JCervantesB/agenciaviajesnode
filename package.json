@@ -1,0 +1,26 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCervantesB/AgenciaViajesNodeJS.git"
+  },
+  "type": "module",
+  "author": "Julio Cervantes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JCervantesB/AgenciaViajesNodeJS/issues"
+  },
+  "homepage": "https://github.com/JCervantesB/AgenciaViajesNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
