@@ -6,7 +6,10 @@ const app = express();
 // Define the port to run on
 const port = process.env.PORT || 4000;
 
-// Agregar router
+// enable pug
+app.set('view engine', 'pug');
+
+// add router
 app.use('/', router);
 
 app.listen(port, () => {
