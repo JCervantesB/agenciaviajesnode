@@ -9,6 +9,13 @@ const port = process.env.PORT || 4000;
 // enable pug
 app.set('view engine', 'pug');
 
+// obtain the year of the current date
+app.use( (req, res, next) => {
+    const year = new Date();
+    res.locals.currentYear = year.getFullYear();
+    next();
+});
+
 // define the public folder
 app.use(express.static('public'));
 
