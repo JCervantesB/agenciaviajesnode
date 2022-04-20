@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JCervantesB/AgenciaViajesNodeJS.git"
+    "url": "git+https://github.com/JCervantesB/agenciaviajesnode.git"
   },
   "type": "module",
   "author": "Julio Cervantes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JCervantesB/AgenciaViajesNodeJS/issues"
+    "url": "https://github.com/JCervantesB/agenciaviajesnode/issues"
   },
-  "homepage": "https://github.com/JCervantesB/AgenciaViajesNodeJS#readme",
+  "homepage": "https://github.com/JCervantesB/agenciaviajesnode.git#readme",
   "dependencies": {
     "express": "^4.17.3",
     "mysql2": "^2.3.3",
